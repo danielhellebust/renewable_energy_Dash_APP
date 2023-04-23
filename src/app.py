@@ -181,7 +181,7 @@ app.layout = html.Div([
             dbc.Row(dcc.Loading(dcc.Graph(id='line_chart2', figure=fig2))),
             dbc.Row(
                 dbc.Row(
-                    dcc.Loading(dcc.Graph(id='bar_chart', figure=fig3), style={'width': '95%','height': '300px'})),
+                    dcc.Loading(dcc.Graph(id='bar_chart', figure=fig3, style={'width': '96%','height': '300px'}))),
                 style={'width': '100%','background-color': 'white'}),
             ],style={'width': '100%','background-color': 'white'}),
 
