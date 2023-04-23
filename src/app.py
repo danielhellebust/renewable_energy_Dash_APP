@@ -168,6 +168,7 @@ fig3.update_xaxes(tickfont=dict(
 
 # Create app
 app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
+server = app.server
 
 # Create layout
 app.layout = html.Div([
